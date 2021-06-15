@@ -1,0 +1,4 @@
+#!/bin/bash
+
+export SMSCTRL_TOKEN="report_secret_token_set_on_webservice"
+export SMSCTRL_URL="http://localhost:51236/smsweb/smsctrl.php"

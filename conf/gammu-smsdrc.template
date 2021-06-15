@@ -1,0 +1,34 @@
+[gammu]
+connection = at
+port = /dev/serial/by-id/YOUR_DEVICE_NAME_COM_ENDPOINT_PORT
+logformat = textall
+
+[smsd]
+PhoneID = LOGICAL_PHONE_NAME
+CheckSecurity = 1
+PIN = YOUR_PIN_CODE
+
+logfile = syslog
+#debuglevel = 255
+
+DeliveryReport = sms
+ResetFrequency = 0
+HardResetFrequency = 0
+
+CommTimeout = 15
+SendTimeout = 30
+MaxRetries = 3
+RetryTimeout = 30
+StatusFrequency = 20
+
+HangupCalls = 1
+
+RunOnReceive = /PATH_TO/tools/receiveSMS.py
+
+InboxFormat = detail
+OutboxFormat = detail
+service = files
+inboxpath = /var/spool/gammu/inbox/
+outboxpath = /var/spool/gammu/outbox/
+sentsmspath = /var/spool/gammu/sent/
+errorsmspath = /var/spool/gammu/error/

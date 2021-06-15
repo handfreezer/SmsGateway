@@ -1,0 +1,9 @@
+{
+	"from" : "expeditor@mail.com",
+	"to" : "to@mail.com",
+	"subject" : "Begin of Subject of mail (suggest to end with a space as number of mobile phone of expeditor of SMS is appended) ",
+	"mailserver" : {
+		"host" : "host.mail.server_or_ip",
+		"port" : "host.mail.server.port_set_to_25_if_you_dont_know"
+	}
+}

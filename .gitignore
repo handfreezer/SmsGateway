@@ -1,0 +1,5 @@
+conf/gammu-smsdrc
+www/php/smsctrl.config.php
+tools/sendSMS.conf
+tools/receiveSMS.conf
+tmp

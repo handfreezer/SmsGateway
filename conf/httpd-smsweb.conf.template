@@ -1,0 +1,22 @@
+<VirtualHost *:51236>
+    ServerName YOUR_NS_FOR_VIRTUAL_HOST
+
+    DocumentRoot /PATH_TO/www/html/
+    Alias "/smsweb" "/PATH_TO/www/php"
+
+    <Location "/index.html">
+        Options None
+        Options +FollowSymlinks -Indexes
+        AllowOverride All
+        Require all granted
+    </Location>
+
+    <Location "/smsweb">
+        Options None
+        Options +FollowSymlinks -Indexes
+        AllowOverride All
+        Require all granted
+    </Location>
+</VirtualHost>
+
+# vim: syntax=apache ts=4 sw=4 sts=4 sr noet

@@ -1,0 +1,6 @@
+<?php
+$token_authorized = array(
+	'secret_token_to_defined_here',
+	'second_secret_key'
+);
+?>
