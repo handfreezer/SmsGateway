@@ -16,7 +16,7 @@ You can use, and/or modify freely, BUT, you have to share here any changes (thro
 
 **Image & Video in docs directory**
 
-<img alt="v1.0.0" src="https://github.com/handfreezer/EfficientSmsGateway/raw/master/docs/photo.v1.0.0.jpg" max-with="500">
+<img alt="v1.0.0" src="https://github.com/handfreezer/SmsGateway/raw/master/docs/photo.v1.0.0.jpg" max-with="500">
 
 **Building**
 
